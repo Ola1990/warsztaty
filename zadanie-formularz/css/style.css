@@ -1,0 +1,30 @@
+body {
+    background-color: #213b50;
+    font-family: Arial, sans-serif;
+}
+label {
+    color: white;
+}
+.formularz {
+    background-color: #2b4a64;
+}
+input:focus {
+    background-color: #4e708c;
+}
+input:focus {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+select {
+    color: #ffffff;
+}
+input[type="submit"] {
+    background-color: greenyellow;
+     border: none;
+    padding: 0.5em 1em;
+    color: #ffffff;
+}
+input[type="submit"]:hover{
+    background-color: darkseagreen;
+}
+

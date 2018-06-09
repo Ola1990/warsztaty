@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <p>Formularz</p>
    <form action="https://formspree.io/aleksandra.gozlinska@wp.pl" method="POST">
-           
-            <input type="text" name="name" placeholder="Imię"><br>
-            <input type="text" name="name" placeholder="Nazwisko"><br>
-            <input type="email" name="mail" placeholder="email"><br>
-            <input type="text" name="phone" placeholder="Telefon"><br>
-            <select name="select" id="town">
+           <label for="surname">Imię</label><br>
+            <input type="text" class="formularz" id="surname" name="name" placeholder="Imię"><br>
+            <label for="name">Nazwisko</label><br>
+            <input type="text" id="name" class="formularz" name="name" placeholder="Nazwisko"><br>
+            <label for="mail">Email</label><br>
+            <input type="email" id="mail" class="formularz" name="mail" placeholder="email"><br>
+            <label for="phone">Telefon</label><br>
+            <input type="text" id="phone" class="formularz" name="phone" placeholder="Telefon"><br>
+            <label for="town">Wybierz miasto:</label><br>
+            <select name="select" class="formularz" id="town">
                 <option value="Kraków">Kraków</option>
                 <option value="Warszawa">Warszawa</option>
                 <option value="Gdańsk">Gdańsk</option>
@@ -23,10 +28,9 @@
             <input type="radio" name="gender" id="female"><br>
             <label for="other">Zgoda na przetwarzanie danych osobowych</label>
             <input type="checkbox" name="agreement" id="other"><br>
-            <textarea maxlength="1000" name="message" placeholder="Wiadomość"></textarea><br>
-            <input type="submit" value="Wyślij">            
-           
-       
+            <textarea maxlength="1000" class="formularz" name="message" placeholder="Wiadomość"></textarea><br>
+            <input type="submit" value="Wyślij">;   
+
        
    </form>
     
